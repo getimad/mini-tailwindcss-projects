@@ -6,5 +6,37 @@
     <link rel="stylesheet" href="output.css" />
     <title>00-project</title>
   </head>
-  <body></body>
+  <body class="bg-blue-100 grid place-items-center h-screen">
+    <div
+      class="flex flex-col md:flex-row md:gap-10 gap-2 bg-blue-950 md:w-[700px] md:h-[250px] w-[300px] p-2 mx-auto rounded-xl transition"
+    >
+      <img
+        class="md:w-52 md:rounded-l-xl md:rounded-none rounded-t-xl hover:scale-105 transition duration-200"
+        src="./images/planting-tree.webp"
+      />
+      <div class="flex flex-col justify-center md:gap-5 gap-3 h-full">
+        <h3 class="text-white text-xl text-center md:text-left font-bold">
+          Lorem ipsum dolor sit amet
+        </h3>
+        <p class="text-slate-300 text-sm text-center md:text-left md:mr-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi
+          fugiat id, autem assumenda laborum praesentium quam cum amet.
+        </p>
+        <div
+          class="flex flex-col md:flex-row md:flex-none flex-auto md:gap-5 gap-2"
+        >
+          <input
+            class="h-12 md:w-3/5 rounded-md p-3 font-bold text-center md:text-left focus:outline-none"
+            type="email"
+            placeholder="Enter your email address"
+          />
+          <input
+            class="bg-blue-700 text-white font-bold h-12 px-5 rounded-md hover:bg-blue-800 transition focus:outline-none hover:cursor-pointer"
+            type="button"
+            value="Subscribe"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
